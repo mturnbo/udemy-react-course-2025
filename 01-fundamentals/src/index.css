@@ -25,16 +25,16 @@ body {
     align-items: start;
   }
 }
+
 .book {
   background: #fff;
+  border: 1px solid #333333;
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
 }
-.book img {
-  width: 100%;
-  object-fit: cover;
-}
+
+
 .book h2 {
   margin-top: 1rem;
   font-size: 1rem;
@@ -49,8 +49,45 @@ body {
 .book p {
   margin: 1rem 0 0.5rem;
 }
+
 h1 {
   text-align: center;
   margin-top: 4rem;
   text-transform: capitalize;
+}
+
+button {
+    background: #0290ff;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    display: block;
+    cursor: pointer;
+}
+
+.bookcover {
+  width: 150px;
+  height: 225px;
+    object-fit: cover;
+}
+
+.bookrank {
+    background: orange;
+    color: darkblue;
+    padding: 0.25rem 0.5rem;
+    border: 0.5px solid #333333;
+    border-radius: 1rem  0 0.25rem 0;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 8%;
 }

@@ -1,6 +1,7 @@
 import img1 from './images/book-1.jpg';
 import img2 from './images/book-2.jpg';
 import img3 from './images/book-3.jpg';
+import img99 from './images/book-99.png';
 
 export const books = [
   {
@@ -20,5 +21,11 @@ export const books = [
     title: 'Fairy Tale',
     img: img3,
     id: 3,
+  },
+  {
+    author: 'Kelela Francis',
+    title: 'Terms and Conditions of the Apocalypse',
+    img: img99,
+    id: 99,
   },
 ];

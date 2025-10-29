@@ -1,0 +1,30 @@
+[
+  {
+    "author": "Jordan Moore",
+    "title": "Interesting Facts For Curious Minds",
+    "img": "images/book-1.jpg",
+    "id": 1,
+    "rank": 2
+  },
+  {
+    "author": "James Clear",
+    "title": "Atomic Habits",
+    "img": "images/book-2.jpg",
+    "id": 2,
+    "rank": 4
+  },
+  {
+    "author": "Stephen King",
+    "title": "Fairy Tale",
+    "img": "images/book-3.jpg",
+    "id": 3,
+    "rank": 3
+  },
+  {
+    "author": "Kelela Francis",
+    "title": "Terms and Conditions of the Apocalypse",
+    "img": "images/book-99.png",
+    "id": 99,
+    "rank": 1
+  }
+]
