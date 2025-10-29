@@ -9,7 +9,7 @@ export const Book = (props) => {
   const { img, title, author, rank, markRead } = props;
 
   return (
-    <article className='book' style={{ position: "relative" }}>
+    <article className='book'>
       <div className='bookrank'>#{rank}</div>
       <img className='bookcover' src={img} alt={title} />
       <h2>{title}</h2>
