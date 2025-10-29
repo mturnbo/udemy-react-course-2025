@@ -3,7 +3,14 @@ import ReactDOM from 'react-dom/client';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const Greeting = () => <h2>Hello Marcus</h2>;
+const Greeting = () => {
+    <div>
+        <h2>Hello Marcus</h2>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+}
 
 root.render(
   <React.StrictMode>
